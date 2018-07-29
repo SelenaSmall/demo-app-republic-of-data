@@ -40,3 +40,5 @@ __Quick Deploy__ (from Github master branch)
 ```apple js
 git push heroku master 
 ```
+
+You can find the app running [here](https://demo-republic-of-data.herokuapp.com)
