@@ -15,7 +15,7 @@
 # gem 'pg'
 #
 default: &default
-  adapter: postgresql
+  adapter: postgis
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: demo-app-republic-of-data_production
-  username: demo-app-republic-of-data
-  password: <%= ENV['DEMO-APP-REPUBLIC-OF-DATA_DATABASE_PASSWORD'] %>
+  url: <%= ENV['PROD_DB_URL'] %>

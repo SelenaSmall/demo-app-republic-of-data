@@ -25,6 +25,9 @@ gem 'puma', '~> 3.7'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+# PostGIS
+gem 'activerecord-postgis-adapter'
+
 group :development, :test do
   gem 'foreman', '~> 0.82.0'
 
