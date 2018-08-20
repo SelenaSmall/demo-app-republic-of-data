@@ -9,6 +9,20 @@
       - https://github.com/rmosolgo/css_modules
       - https://medium.com/@fkadev/how-i-implemented-css-modules-to-ruby-on-rails-easily-abb324ce22d
     - has some issues from sample doc https://github.com/react-toolbox/react-toolbox/issues/1278
+    - with some warnings
+    ```
+    npm install --save react-toolbox
+
+    npm install --save-dev react-toolbox-themr
+
+      npm WARN deprecated postcss-cssnext@2.11.0: 'postcss-cssnext' has been deprecated in favor of 'postcss-preset-env'. Read more at https://moox.io/blog/deprecating-cssnext/
+      npm WARN ajv-keywords@3.2.0 requires a peer of ajv@^6.0.0 but none is installed. You must install peer dependencies yourself.
+      npm WARN react-toolbox-themr@1.0.2 requires a peer of react-toolbox@^2.0.0 but none is installed. You must install peer dependencies yourself.
+      npm WARN react-css-themr@2.1.2 requires a peer of react@^0.14.0 || ^15.0.0-0 but none is installed. You must install peer dependencies yourself.
+
+    node_modules/.bin/react-toolbox-themr
+
+    ```
 
 - [ ] light weight charts that look great
   - [x] https://github.com/reactjs/react-chartjs
@@ -83,7 +97,7 @@ npm start
 
 __Quick Deploy__ (from Github master branch)
 ```apple js
-git push heroku master 
+git push heroku master
 ```
 
 You can find the app running [here](https://demo-republic-of-data.herokuapp.com)

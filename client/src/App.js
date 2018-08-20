@@ -1,7 +1,8 @@
-import React, {Component} from 'react';
-import './App.css';
+import React, {Component} from 'react'
+import './App.css'
 import D3JsDemo from './insights/D3JsDemo'
-import ChartJsDemo from "./insights/ChartJsDemo";
+import ChartJsDemo from "./insights/ChartJsDemo"
+import Button from 'react-toolbox/lib/button/Button'
 
 class App extends Component {
   state = {data: []}
@@ -19,6 +20,7 @@ class App extends Component {
         <div className="App-header">
           <h2>Republic of Data - Insights</h2>
         </div>
+        <Button raised primary>A button</Button>
         <ChartJsDemo/>
         <D3JsDemo data={this.state.data.map((d) => d.mean_speed)} size={[500, 500]}></D3JsDemo>
       </div>
