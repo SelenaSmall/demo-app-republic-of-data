@@ -3,6 +3,13 @@
 ## TODO
 
 - [ ] light weight charts that look great
+  - https://github.com/reactjs/react-chartjs
+    ```
+    npm install --save react-chartjs chart.js@^1.1.1
+    ```
+    - using examples http://reactcommunity.org/react-chartjs/index.html
+    - `insights/ChartJsDemo`
+
 - [ ] some awesome real time geographic maps
 - [ ] add some descent react theme
 - [ ] authentication for any admin things
