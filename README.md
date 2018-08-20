@@ -1,5 +1,13 @@
 # README
 
+## URGENT
+
+  - [ ] react toolbox is not including the css as they are through css modules
+    and they seem not to be compatible with rails sprockets? do we need to move
+    to rails web packer?
+  - [ ] react-router link is not at all styled and cannot use the react-toolbox
+    link directly?
+
 ## TODO
 
 - [ ] look and feel
