@@ -1,5 +1,15 @@
 # README
 
+## TODO
+
+- [ ] light weight charts that look great
+- [ ] some awesome real time geographic maps
+- [ ] add some descent react theme
+- [ ] authentication for any admin things
+- [ ] graphql?
+- [ ] should we have all rails and active admin?
+- [ ] should we have less rails and use hanami instead?
+
 ## Development
 
 ### Pre-requisites
