@@ -4,3 +4,6 @@ to get this to run, you need a file `config.js` with this line, populated with a
 mapboxToken = '<mapbox access token here>';
 mapboxStyle = '<mapbox style URI here>';
 ```
+
+TODO: add tram stops
+TODO: interactivity - change layer styles on hover, click
