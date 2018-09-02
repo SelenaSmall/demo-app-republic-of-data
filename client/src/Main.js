@@ -6,6 +6,7 @@ import Home from "./Home"
 import Map from "./flow/Map"
 import Dimensions from "./flow/Dimensions"
 import Calendar from "./flow/Calendar"
+import DatePicker from "./flow/DatePicker"
 
 class Main extends Component {
   render() {
@@ -16,6 +17,7 @@ class Main extends Component {
           <Route exact path='/map' component={Map} />
           <Route exact path='/dimensions' component={Dimensions} />
           <Route exact path='/calendar' component={Calendar} />
+          <Route exact path='/date-picker' component={DatePicker} />
           <Route exact path='/chart-js-demo' component={ChartJsDemo} />
           <Route exact path='/d3-js-demo' component={D3JsDemo} />
         </Switch>
